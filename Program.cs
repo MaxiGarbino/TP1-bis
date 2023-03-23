@@ -26,13 +26,7 @@ void solicitarCurso(){
     nombreCurso = ingresarString("Ingrese el nombre del curso, o 'fin' para finalizar el ingreso.");
     nombreCurso = validarNombreCurso(nombreCurso);
     while (nombreCurso.ToLower() != "fin") {
-        
-        cantAlumnos = ingresarInt("Ingrese la cantidad de alumnos de ese curso");
-        for (int i = 1; i <= cantAlumnos; i++)
-        {
-          acumAlumno += ingresarInt("ingrese la cantidad de plata que pondrá el alumno N°" + i);
-        }
-
+        acumAlumno = ingresarDineroDelCurso();
         dicCursos.Add(nombreCurso,acumAlumno);
         acumAlumno = 0;
         nombreCurso = ingresarString("Ingrese el nombre del curso, o 'fin' para finalizar el ingreso.");
@@ -96,4 +90,14 @@ string validarNombreCurso(string nombreCurso) {
        
     }
      return nombreCurso;
+}
+
+int ingresarDineroDelCurso() {
+    int acumAlumno = 0;
+cantAlumnos = ingresarInt("Ingrese la cantidad de alumnos de ese curso");
+        for (int i = 1; i <= cantAlumnos; i++)
+        {
+          acumAlumno += ingresarInt("ingrese la cantidad de plata que pondrá el alumno N°" + i);
+        }
+    return acumAlumno;
 }
