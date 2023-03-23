@@ -93,11 +93,11 @@ string validarNombreCurso(string nombreCurso) {
 }
 
 int ingresarDineroDelCurso() {
-    int acumAlumno = 0;
-cantAlumnos = ingresarInt("Ingrese la cantidad de alumnos de ese curso");
+    int acumAlumnos = 0;
+int cantAlumnos = ingresarInt("Ingrese la cantidad de alumnos de ese curso");
         for (int i = 1; i <= cantAlumnos; i++)
         {
-          acumAlumno += ingresarInt("ingrese la cantidad de plata que pondrá el alumno N°" + i);
+          acumAlumnos += ingresarInt("ingrese la cantidad de plata que pondrá el alumno N°" + i);
         }
-    return acumAlumno;
+    return acumAlumnos;
 }
