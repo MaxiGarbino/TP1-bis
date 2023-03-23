@@ -1,0 +1,15 @@
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.csproj.AssemblyReference.cache
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.AssemblyInfoInputs.cache
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.AssemblyInfo.cs
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.csproj.CoreCompileInputs.cache
+Z:\TP1-bis\bin\Debug\net6.0\TP1-bis.exe
+Z:\TP1-bis\bin\Debug\net6.0\TP1-bis.deps.json
+Z:\TP1-bis\bin\Debug\net6.0\TP1-bis.runtimeconfig.json
+Z:\TP1-bis\bin\Debug\net6.0\TP1-bis.dll
+Z:\TP1-bis\bin\Debug\net6.0\TP1-bis.pdb
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.dll
+Z:\TP1-bis\obj\Debug\net6.0\refint\TP1-bis.dll
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.pdb
+Z:\TP1-bis\obj\Debug\net6.0\TP1-bis.genruntimeconfig.cache
+Z:\TP1-bis\obj\Debug\net6.0\ref\TP1-bis.dll
